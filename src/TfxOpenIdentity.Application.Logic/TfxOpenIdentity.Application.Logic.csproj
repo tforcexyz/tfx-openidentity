@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Xyz.TForce.OpenIdentity.Application.Logic</RootNamespace>
+    <Authors>T-Force Xyz</Authors>
+    <Company>T-Force Xyz</Company>
+    <Copyright>T-Force Xyz</Copyright>
+    <Product>TFX Authentication Portal</Product>
+    <Description>TFX Authentication Portal</Description>
+    <Version>1.0.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TfxDependencyInjection" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TfxOpenIdentity.Application.Contracts\TfxOpenIdentity.Application.Contracts.csproj" />
+    <ProjectReference Include="..\TfxOpenIdentity.Data.Contracts\TfxOpenIdentity.Data.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

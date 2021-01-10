@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Xyz.TForce.OpenIdentity</RootNamespace>
+    <Authors>T-Force Xyz</Authors>
+    <Company>T-Force Xyz</Company>
+    <Copyright>T-Force Xyz</Copyright>
+    <Product>TFX Authentication Portal</Product>
+    <Description>TFX Authentication Portal</Description>
+    <Version>1.0.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.10" />
+    <PackageReference Include="TfxDependencyInjection" Version="1.0.0" />
+    <PackageReference Include="TfxDependencyInjection.AutofacAdapter" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TfxOpenIdentity.Application.Logic\TfxOpenIdentity.Application.Logic.csproj" />
+    <ProjectReference Include="..\TfxOpenIdentity.Data.Repositories\TfxOpenIdentity.Data.Repositories.csproj" />
+    <ProjectReference Include="..\TfxOpenIdentity.WebApi\TfxOpenIdentity.WebApi.csproj" />
+    <ProjectReference Include="..\TfxOpenIdentity.WebMvc\TfxOpenIdentity.WebMvc.csproj" />
+  </ItemGroup>
+
+</Project>
