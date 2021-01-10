@@ -1,2 +1,2 @@
-# tfx-openidentity
-TFX Open Identity
+# tfx openidentity
+Authentication Provider using OAuth2
